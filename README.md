@@ -17,8 +17,26 @@ O projeto foi desenvolvido utilizando a prática de testes para garantir a integ
 
 Para rodar os testes:
 ```bash
-python manage.py test```
+python manage.py test
+```
 
-🛠️
+## 🛠️ Tecnologias
+- Python 3.12+
+- Django 5.x
+- SQLite(Banco de Dados padrão)
 
-📋
+## 📋 Como rodar o projeto
+1. Clonar o repositório.
+2. Crie e ative uma ``` venv```.
+3. Instale as dependências:
+```bash
+pip install - requeriments.txt
+```
+4. Rode as migrações:
+```bash
+python manage.py migrate
+```
+5. Inicie o servidor:
+```bash
+python manage.py runserver
+```
