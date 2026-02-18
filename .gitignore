@@ -1,0 +1,16 @@
+# Ambientes Virtuais
+venv/
+env/
+.env
+
+# Banco de dados (não subimos o banco local com dados de teste)
+db.sqlite3
+
+# Python (arquivos temporários)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs
+.vscode/
+.idea/
